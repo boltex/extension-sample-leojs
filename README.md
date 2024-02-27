@@ -1,8 +1,10 @@
-# Hello World Sample
+# LeoJS API Access Sample Extension
 
-This is a Hello World example that shows you how to use VS Code API.
+This is a sample extension that shows you how to use LeoJS from another extension by accessing its instance of the leoGlobals 'g' object.
 
-Guide for this sample: https://code.visualstudio.com/api/get-started/your-first-extension.
+With LeoJS installed, and this extension started (see Running the Sample below) Open the command palette with `CTRL+SHIFT+¨P` and type 'Hello'.
+
+This should display a message about the number of Leo documents opened in LeoJS along with the headline of the currently selected node.
 
 ## Demo
 
@@ -23,5 +25,5 @@ Guide for this sample: https://code.visualstudio.com/api/get-started/your-first-
 
 - Run `npm install` in terminal to install dependencies
 - Run the `Run Extension` target in the Debug View. This will:
-	- Start a task `npm: watch` to compile the code
-	- Run the extension in a new VS Code window
+  - Start a task `npm: watch` to compile the code
+  - Run the extension in a new VS Code window
